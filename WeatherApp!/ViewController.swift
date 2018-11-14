@@ -13,8 +13,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let latitude = 37.8267
+        let longitude = -122.4233
+        
+        APIManager.getWeather(at: (latitude, longitude))
+        
+    }
+    
     }
 
 
-}
+
 

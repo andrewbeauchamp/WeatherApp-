@@ -13,6 +13,9 @@
 		FB20098E219CAEEF00C861DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB20098C219CAEEF00C861DF /* Main.storyboard */; };
 		FB200990219CAEF000C861DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB20098F219CAEF000C861DF /* Assets.xcassets */; };
 		FB200993219CAEF000C861DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB200991219CAEF000C861DF /* LaunchScreen.storyboard */; };
+		FBBC69DB219CB0F10003815C /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBC69DA219CB0F10003815C /* Location.swift */; };
+		FBBC69DD219CB1170003815C /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBC69DC219CB1170003815C /* APIKeys.swift */; };
+		FBBC69DF219CB1400003815C /* API Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBC69DE219CB1400003815C /* API Manager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		FB20098F219CAEF000C861DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB200992219CAEF000C861DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB200994219CAEF000C861DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBBC69DA219CB0F10003815C /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		FBBC69DC219CB1170003815C /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
+		FBBC69DE219CB1400003815C /* API Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API Manager.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +77,8 @@
 			children = (
 				FB20099B219CAF5300C861DF /* API */,
 				FB20099A219CAF3A00C861DF /* Models */,
-				FB200988219CAEEF00C861DF /* AppDelegate.swift */,
 				FB20098A219CAEEF00C861DF /* ViewController.swift */,
+				FB200988219CAEEF00C861DF /* AppDelegate.swift */,
 				FB20098C219CAEEF00C861DF /* Main.storyboard */,
 				FB20098F219CAEF000C861DF /* Assets.xcassets */,
 				FB200991219CAEF000C861DF /* LaunchScreen.storyboard */,
@@ -84,6 +90,7 @@
 		FB20099A219CAF3A00C861DF /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				FBBC69DA219CB0F10003815C /* Location.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -91,6 +98,8 @@
 		FB20099B219CAF5300C861DF /* API */ = {
 			isa = PBXGroup;
 			children = (
+				FBBC69DC219CB1170003815C /* APIKeys.swift */,
+				FBBC69DE219CB1400003815C /* API Manager.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -219,7 +228,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB20098B219CAEEF00C861DF /* ViewController.swift in Sources */,
+				FBBC69DB219CB0F10003815C /* Location.swift in Sources */,
+				FBBC69DD219CB1170003815C /* APIKeys.swift in Sources */,
 				FB200989219CAEEF00C861DF /* AppDelegate.swift in Sources */,
+				FBBC69DF219CB1400003815C /* API Manager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
